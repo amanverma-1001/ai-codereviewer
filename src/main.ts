@@ -1,4 +1,5 @@
 import { readFileSync } from "fs";
+
 import * as core from "@actions/core";
 import OpenAI from "openai";
 import { Octokit } from "@octokit/rest";
